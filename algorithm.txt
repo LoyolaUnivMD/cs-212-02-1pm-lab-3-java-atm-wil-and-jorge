@@ -1,1 +1,23 @@
+1. Ask user for their name
+2. Greet the user with their proper name.
+3. create variable answer and set answer to " "
+    a. Create a variable called balance and equal it to 212.90
+
+4. While answer is not equal to "leave"
+    b.ask the user what they want to do (deposit/withdraw/check balance/leave)
+    c. if answer equals to deposit
+        I. ask the user the amount they want to deposit and store it in variable deposit
+        II. while deposit is less than 0
+            1. output invalid message and ask the user again for a correct variable
+        III. balance equals to balance + deposit
+    d. else if answer equals to withdraw
+        I. ask the user the amount they want to withdraw and store it in variable withdraw
+        II. while deposit is less than 0
+            1. output invalid message and ask the user again for a correct variable
+        III. balance equals to balance - withdraw
+    e. else if answer equals to check balance
+        I. output the variable balance
+    f. else
+        I. Output a goodbye message
+    g. ask the user what they want to do (deposit/withdraw/check balance/leave)
 
